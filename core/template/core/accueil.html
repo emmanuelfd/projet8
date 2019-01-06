@@ -15,15 +15,20 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <h2 class="text-faded mb-5">Trouver un  produit de substitution</h2>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+              <form class="" action="" method="post">
+                  <div class="">
+                    <label for="name" class="control-label"></label>
+                    <input type="search" name="name" value="" id="name">
+                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Rechercher</button>
+                  </div>
+              </form>
           </div>
         </div>
       </div>
     </header>
 
 
-
-        <div class="container my-auto">
+      <div class="container my-auto">
 
         <h2 class="section-heading">Colette et Remy</h2>
 
@@ -37,14 +42,37 @@
         <p>Remy : "Pour ma part je me rendais déjà dans bien des magasins car j'aime beaucoup me balader, surtout dans les caves et les cuisines. Je connaissais par coeur le contenu des boutiques bio (dont je raffole) ainsi que les ingrédients de tous les aliments vendus. Lorsque Colette m'a demandé si elle pouvait remplacer son Nutella matinal par un aliment plus sain, je savais tout de suite où le trouver. L'idée de Pur Beurre était née !"</p>
 
 
-        </div>
+      </div>
 
-        <div class="resize_image_accueil">
+      <div class="resize_image_accueil">
 
         <img class="" src="{{ MEDIA_URL }}colette-4.jpg" alt="Photo de colette" />
         <img class="" src="{{ MEDIA_URL }}remy-8.jpg" alt="Photo de remy" />
 
-        </div>
+      </div>
 
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Contactez-nous !</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     {% endblock %}

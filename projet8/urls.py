@@ -28,6 +28,7 @@ from core import views
 
 urlpatterns = [
     url(r'^$', views.home),
+    url(r'^compte/', include('compte.urls')),
     #url(r'^resultats/', include('resultats.urls')),
     url(r'^admin/', admin.site.urls),
 ]

@@ -14,8 +14,8 @@
 
 	display: flex;
 	justify-content: center;
-	flex: 10%;
-	max-width: 10%;
+	flex: 40%;
+	max-width: 40%;
 	margin: auto;
 
 
@@ -37,4 +37,18 @@
 
     background-image:url(../img/background.jpg)
 
+}
+
+.footer_perso
+{
+border-top:1px solid black;
+}
+
+.ul_footer
+{
+	list-style-type: none;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
 }

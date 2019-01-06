@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'resultats.apps.ResultatsConfig',
+    'compte.apps.CompteConfig',
+    'core.apps.CoreConfig',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +60,9 @@ ROOT_URLCONF = 'projet8.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'core/template')]
+        'DIRS': [os.path.join(BASE_DIR, 'core/template'),
+                 os.path.join(BASE_DIR, 'compte/template')
+                 ]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
