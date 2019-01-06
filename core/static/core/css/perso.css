@@ -1,0 +1,40 @@
+/*!
+
+	max-width: 100%;
+	height: auto;
+
+		width: 100px;
+	height: 100px;
+
+
+ */
+.resize_image_accueil
+
+{
+
+	display: flex;
+	justify-content: center;
+	flex: 10%;
+	max-width: 10%;
+	margin: auto;
+
+
+}
+
+.resize_logo
+
+{
+
+
+	height: 50px;
+	width: 50px;
+
+}
+
+.header_perso
+
+{
+
+    background-image:url(../img/background.jpg)
+
+}

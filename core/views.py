@@ -7,5 +7,5 @@ def home1(request):
     return HttpResponse(message)
 
 def home(request):
-    template = loader.get_template('core/footer.html')
+    template = loader.get_template('core/accueil.html')
     return HttpResponse(template.render(request=request))
