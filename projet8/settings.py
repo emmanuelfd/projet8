@@ -11,11 +11,16 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
 
 print(BASE_DIR)
+print('==')
+print(PROJECT_ROOT)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
@@ -24,9 +29,17 @@ print(BASE_DIR)
 SECRET_KEY = '=5+6c82b5-d3*awgqcy1gfv9kk9#we10=+#e!prehii9s351%('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+ENV = 'PRODUCTION'
 
-ALLOWED_HOSTS = []
+#if os.environ.get('ENV') == 'PRODUCTION':
+if ENV == 'PRODUCTION':
+    DEBUG = False
+else:
+    DEBUG = True
+
+print(DEBUG)
+
+ALLOWED_HOSTS = ['projet8.herokuapp.com']
 
 
 # Application definition
@@ -53,6 +66,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'projet8.urls'
@@ -87,7 +101,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', # on utilise l'adaptateur postgresql
         'NAME': 'projet8_db', # le nom de notre base de donnees creee precedemment
-        'USER': 'postgres', # attention : remplacez par votre nom d'utilisateur
+        'USER': 'adm', # attention : remplacez par votre nom d'utilisateur
         'PASSWORD': 'sophie',
         'HOST': '',
         'PORT': '5432',
@@ -131,13 +145,25 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'core/static/')]
-MEDIA_ROOT = os.path.join(BASE_DIR, 'core/media/')
-MEDIA_URL = 'core/media/'
+if ENV == 'PRODUCTION':
+    STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+    STATICFILES_DIRS = (os.path.join(PROJECT_ROOT, 'static'),)
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    db_from_env = dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
+else:
+    STATIC_URL = '/static/'
+    STATICFILES_DIRS = [os.path.join(BASE_DIR, 'core/static/')]
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'core/media/')
+    MEDIA_URL = 'core/media/'
+
+
+
+
 
 #print(STATICFILES_DIRS)
-#print(MEDIA_ROOT)
+#print(STATIC_ROOT)
 #print(MEDIA_URL)
+
 
 
