@@ -5,11 +5,12 @@
     {% block content %}
 
               <form class="" action="" method="post">
+                  {% csrf_token %}
                   <div class="">
                     <label for="name" class="control-label"></label>
                     <input type="text" placeholder="Votre email" name="login" value="" id="login">
                     <input type="password" name="password" value="" id="password">
-                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Creer mon compte</button>
+                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Login</button>
                   </div>
               </form>
 

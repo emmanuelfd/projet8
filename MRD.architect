@@ -67,10 +67,10 @@
     <column id="COL19" populated="true" UUID="2b696726-15d3-4e89-8ef5-4847dd3a72e1" autoIncrement="false" autoIncrementSequenceName="aliment_sugars_unit_seq" defaultValue="g" name="sugars_unit" nullable="1" physicalName="sugars_unit" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL20" populated="true" UUID="28abc135-cdd1-45cf-9fd6-fe42015c8fe2" autoIncrement="false" autoIncrementSequenceName="aliment_saturated-fat_100g_seq" defaultValue="" name="saturated-fat_100g" nullable="1" physicalName="saturated-fat_100g" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="3" userDefinedTypeUUID="cc1304ea-628a-4fc5-a84a-06ba14759152" >
+    <column id="COL20" populated="true" UUID="28abc135-cdd1-45cf-9fd6-fe42015c8fe2" autoIncrement="false" autoIncrementSequenceName="aliment_saturated-fat_100g_seq" defaultValue="" name="saturated-fat_100g" nullable="1" physicalName="saturatedfat_g" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="3" userDefinedTypeUUID="cc1304ea-628a-4fc5-a84a-06ba14759152" >
      <remarks></remarks>
     </column>
-    <column id="COL21" populated="true" UUID="d305bfc4-dcde-4f90-a4c8-6361bc0d6fb4" autoIncrement="false" autoIncrementSequenceName="aliment_saturated-fat_unit_seq" defaultValue="g" name="saturated-fat_unit" nullable="1" physicalName="saturated-fat_unit" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL21" populated="true" UUID="d305bfc4-dcde-4f90-a4c8-6361bc0d6fb4" autoIncrement="false" autoIncrementSequenceName="aliment_saturated-fat_unit_seq" defaultValue="g" name="saturated-fat_unit" nullable="1" physicalName="saturatedfat_unit" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL22" populated="true" UUID="4fcbc958-79b4-4ac8-8045-4a2d7b7e7bfa" autoIncrement="false" autoIncrementSequenceName="aliment_fat_100g_seq" defaultValue="" name="fat_100g" nullable="1" physicalName="fat_100g" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="3" userDefinedTypeUUID="cc1304ea-628a-4fc5-a84a-06ba14759152" >
@@ -91,7 +91,7 @@
     <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX26" populated="true" UUID="e9982df0-57e0-4b09-96c5-65933d95ab58" clustered="false" name="Id" physicalName="Id" primaryKeyIndex="true" unique="false" >
+    <index id="IDX26" populated="true" UUID="e9982df0-57e0-4b09-96c5-65933d95ab58" clustered="false" name="Id" physicalName="id" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC27" populated="true" UUID="8e35722e-816f-413f-9803-5f37f05be873" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="Id" physicalName="Id" />
     </index>
    </folder>
@@ -148,7 +148,7 @@
     <column id="COL41" populated="true" UUID="2e40b19a-1dbe-4eb7-9c01-f650c2ea1736" autoIncrement="false" autoIncrementSequenceName="substitution_Id_Aliment_seq" defaultValue="" name="Id_Aliment" nullable="0" physicalName="Id_Aliment" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
      <remarks></remarks>
     </column>
-    <column id="COL42" populated="true" UUID="28ffc00e-683c-4463-94ea-6bd6b792f71a" autoIncrement="false" autoIncrementSequenceName="substitution_Id_Aliment_Substitution_seq" defaultValue="" name="Id_Aliment_Substitution" nullable="0" physicalName="Id_Aliment_Substitution" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL42" populated="true" UUID="28ffc00e-683c-4463-94ea-6bd6b792f71a" autoIncrement="false" autoIncrementSequenceName="substitution_Id_Aliment_Substitution_seq" defaultValue="" name="Id_Aliment_Substitution" nullable="0" physicalName="Id_Aliment_Substitution" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
      <remarks></remarks>
     </column>
     <column id="COL43" populated="true" UUID="0479cd97-d265-41dd-9030-229842bcb2e0" autoIncrement="false" autoIncrementSequenceName="substitution_Id_User_seq" defaultValue="" name="Id_User" nullable="0" physicalName="Id_User" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
@@ -183,7 +183,7 @@
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">

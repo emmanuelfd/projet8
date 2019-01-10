@@ -34,12 +34,12 @@ ENV = 'PRODUCTION'
 #if os.environ.get('ENV') == 'PRODUCTION':
 if ENV == 'PRODUCTION':
     DEBUG = False
+    ALLOWED_HOSTS = ['projet8.herokuapp.com']
 else:
     DEBUG = True
+    ALLOWED_HOSTS = []
 
-print(DEBUG)
 
-ALLOWED_HOSTS = ['projet8.herokuapp.com']
 
 
 # Application definition
