@@ -29,15 +29,19 @@ print(PROJECT_ROOT)
 SECRET_KEY = '=5+6c82b5-d3*awgqcy1gfv9kk9#we10=+#e!prehii9s351%('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-ENV = 'PRODUCTION'
+#ENV = 'PRODUCTION'
 
 #if os.environ.get('ENV') == 'PRODUCTION':
-if ENV == 'PRODUCTION':
+# SECURITY WARNING: don't run with debug turned on in production!
+if os.environ.get('ENV') == 'PRODUCTION':
     DEBUG = False
     ALLOWED_HOSTS = ['projet8.herokuapp.com']
 else:
     DEBUG = True
     ALLOWED_HOSTS = []
+
+
+
 
 
 
@@ -145,7 +149,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-if ENV == 'PRODUCTION':
+
+
+if os.environ.get('ENV') == 'PRODUCTION':
+    STATIC_URL = '/static/'
     STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
     STATICFILES_DIRS = (os.path.join(PROJECT_ROOT, 'static'),)
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
@@ -156,7 +163,6 @@ else:
     STATICFILES_DIRS = [os.path.join(BASE_DIR, 'core/static/')]
     MEDIA_ROOT = os.path.join(BASE_DIR, 'core/media/')
     MEDIA_URL = 'core/media/'
-
 
 
 
