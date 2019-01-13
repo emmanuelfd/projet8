@@ -11,5 +11,6 @@ from compte import views
 urlpatterns = [
 
     url(r'^$', views.index), # "/store" will call the method "index" in "views.py"
+    url(r'^creation$', views.creation), # "/store" will call the method "index" in "views.py"
 
 ]

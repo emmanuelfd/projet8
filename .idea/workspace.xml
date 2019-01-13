@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9996e3a-d174-4299-800d-490cabbb7309" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet8/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/projet8$settings.coverage" NAME="settings Coverage Results" MODIFIED="1547160111792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet8" />
+    <SUITE FILE_PATH="coverage/projet8$settings.coverage" NAME="settings Coverage Results" MODIFIED="1547414927336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet8" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -20,12 +24,13 @@
     <session id="480314209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -38,7 +43,7 @@
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,8 +51,8 @@
           <entry key="Django Console" value="287" />
           <entry key="css" value="197" />
           <entry key="gitignore" value="5" />
-          <entry key="html" value="856" />
-          <entry key="py" value="1183" />
+          <entry key="html" value="977" />
+          <entry key="py" value="1335" />
           <entry key="py@projet8" value="204" />
         </counts>
       </usages-collector>
@@ -55,43 +60,46 @@
         <counts>
           <entry key="CSS" value="197" />
           <entry key="CommandLine" value="204" />
-          <entry key="HTML" value="856" />
+          <entry key="HTML" value="977" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1470" />
+          <entry key="Python" value="1622" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="9" />
+          <entry key="html" value="12" />
           <entry key="jpg" value="6" />
           <entry key="js" value="3" />
           <entry key="png" value="1" />
-          <entry key="py" value="31" />
+          <entry key="py" value="32" />
           <entry key="scss" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="12" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="32" />
           <entry key="SCSS" value="2" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="projet8" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compte/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -102,35 +110,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="57" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projet8/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2356">
-              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-              <folding>
-                <element signature="e#308#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compte/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1547076001221" expanded="true" signature="411:414" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,20 +129,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compte/migrations/0002_auto_20190109_2220.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compte/migrations/0001_initial.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/template/core/accueil.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -168,11 +137,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compte/template/compte/accueil_compte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="289">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/template/core/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/template/core/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -182,6 +169,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compte/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1547419290110" expanded="true" signature="555:558" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compte/template/compte/creation_compte.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -218,13 +227,14 @@
         <option value="$PROJECT_DIR$/core/static/core/css/perso.css" />
         <option value="$PROJECT_DIR$/core/template/core/accueil.html" />
         <option value="$PROJECT_DIR$/projet8/urls.py" />
-        <option value="$PROJECT_DIR$/compte/urls.py" />
-        <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/core/template/core/base.html" />
-        <option value="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" />
         <option value="$PROJECT_DIR$/compte/models.py" />
-        <option value="$PROJECT_DIR$/compte/views.py" />
         <option value="$PROJECT_DIR$/projet8/settings.py" />
+        <option value="$PROJECT_DIR$/core/views.py" />
+        <option value="$PROJECT_DIR$/compte/urls.py" />
+        <option value="$PROJECT_DIR$/compte/template/compte/creation_compte.html" />
+        <option value="$PROJECT_DIR$/compte/views.py" />
+        <option value="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" />
       </list>
     </option>
   </component>
@@ -240,9 +250,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="y" value="277" />
-    <option name="width" value="1087" />
+    <option name="x" value="-64" />
+    <option name="y" value="5" />
+    <option name="width" value="1931" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -266,7 +276,44 @@
             <path>
               <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
               <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="compte" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
               <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="compte" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="compte" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projet8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="projet8" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,16 +331,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Manu\PycharmProjects\projet8\core" />
-      <recent name="C:\Users\Manu\PycharmProjects\projet8\core\static\core\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Manu\PycharmProjects\projet8\compte" />
       <recent name="C:\Users\Manu\PycharmProjects\projet8\compte\template\compte" />
+      <recent name="C:\Users\Manu\PycharmProjects\projet8\compte" />
       <recent name="C:\Users\Manu\PycharmProjects\projet8\core\static\core\css" />
       <recent name="C:\Users\Manu\PycharmProjects\projet8\core\media" />
       <recent name="C:\Users\Manu\PycharmProjects\projet8\projet8" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Manu\PycharmProjects\projet8\core" />
+      <recent name="C:\Users\Manu\PycharmProjects\projet8\core\static\core\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RunManager" selected="Django server.projet8">
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projet8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -379,15 +426,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-64" y="5" width="1931" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.19775522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005574" side_tool="true" visible="true" weight="0.19775522" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38136512" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15830547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,25 +528,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/template/core/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/static/core/img/carrot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/template/core/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/static/core/css/perso.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,23 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compte/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compte/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compte/migrations/0002_auto_20190109_2220.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -545,6 +561,16 @@
     <entry file="file://$PROJECT_DIR$/compte/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/projet8/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1939">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="e#308#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/template/core/accueil.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -552,10 +578,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compte/template/compte/accueil_compte.html">
+    <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/template/core/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/template/core/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -566,34 +609,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compte/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compte/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/compte/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="296">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1547076001221" expanded="true" signature="411:414" ph="..." />
+            <marker date="1547419290110" expanded="true" signature="555:558" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
+    <entry file="file://$PROJECT_DIR$/compte/template/compte/creation_compte.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet8/settings.py">
+    <entry file="file://$PROJECT_DIR$/compte/template/compte/accueil_compte.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-          <folding>
-            <element signature="e#308#317#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>

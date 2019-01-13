@@ -165,8 +165,6 @@ else:
     MEDIA_URL = 'core/media/'
 
 
-
-
 #print(STATICFILES_DIRS)
 #print(STATIC_ROOT)
 #print(MEDIA_URL)
