@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9996e3a-d174-4299-800d-490cabbb7309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compte/migrations/0003_auto_20190207_2054.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte/template/compte/accueil_compte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/template/compte/creation_compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte/template/compte/creation_compte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/compte/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/core/css/perso.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/css/perso.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/template/core/accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/template/core/accueil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/template/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/template/core/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet8/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet8/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet8/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultats/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resultats/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/resultats/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="e9996e3a-d174-4299-800d-490cabbb7309" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,9 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resultats/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="40" selection-start-line="40" selection-end-line="50" />
+            <state relative-caret-position="17">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1549836036692" expanded="true" signature="3517:4490" ph="..." />
@@ -181,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/resultats/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -191,10 +171,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
               <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1549576987726" expanded="true" signature="333:336" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +198,7 @@
         <entry file="file://$PROJECT_DIR$/compte/template/compte/accueil_compte.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="44" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -594,7 +570,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="27" width="1622" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.17797695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -869,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/compte/template/compte/accueil_compte.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="44" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -884,10 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1549576987726" expanded="true" signature="333:336" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,7 +872,7 @@
     <entry file="file://$PROJECT_DIR$/resultats/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -909,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resultats/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" selection-start-line="40" selection-end-line="50" />
+        <state relative-caret-position="17">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1549836036692" expanded="true" signature="3517:4490" ph="..." />
