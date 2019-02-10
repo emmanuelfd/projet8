@@ -1,0 +1,31 @@
+
+    {% extends 'core/base.html' %}
+
+
+    {% block content %}
+
+
+        {% if user.is_authenticated %}
+            <p>Welcome, {{ user.username }}. Thanks for logging in.</p>
+        {% else %}
+          <div class="">
+           <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZXX </p>
+            <ul>
+                {{ aliment_search }}
+
+            </ul>
+        {% endif %}
+
+          </div>
+
+
+          <div class="">
+
+          </div>
+
+
+
+
+
+
+    {% endblock %}

@@ -4,17 +4,35 @@
 
     {% block content %}
 
-              <form class="" action="" method="post">
-                  {% csrf_token %}
-                  <div class="">
-                    <label for="name" class="control-label"></label>
-                    <input type="text" placeholder="Votre email" name="login" value="" id="login">
-                    <input type="password" name="password" value="" id="password">
-                    <input type="password" name="password_check" value="" id="password">
-                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Creer mon compte</button>
-                  </div>
-              </form>
 
+              <form class="" action="{% url 'compte:creation' %}" method="post">
+                  {% csrf_token %}
+              <!--{{ form.as_table }}-->
+                  <div class="">
+                      <label for="{{ form.name.id_for_label }}" class="control-label">Login</label>
+                      {{ form.name }}
+                  </div>
+
+                  <div class="">
+                      <label for="{{ form.password.id_for_label }}" class="control-label">Mot de passe</label>
+                      {{ form.password }}
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Creer mon compte</button>
+
+                  <div class="">
+                      {% if envoi %}votre compte a bine ete cree, vous pouvez mainteneant vous connecter !
+                          <a href="{% url 'compte:acceuil' %}">login</a>
+                      {% endif %}
+                  </div>
+
+
+                  <div class="">
+
+                  </div>
+
+
+              </form>
 
 
     {% endblock %}

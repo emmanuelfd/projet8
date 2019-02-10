@@ -4,17 +4,45 @@
 
     {% block content %}
 
-              <form class="" action="" method="post">
+
+              {% if error %}
+                   <p><strong>Utilisateur inexistant ou mauvais de mot de
+                   passe.</strong></p>
+
+                  <a href="{% url 'compte:acceuil' %}">login again</a>
+
+                  <p><a href="http://127.0.0.1:8000/compte/">login</a></p>
+
+
+              {% endif %}
+
+              {% if user.is_authenticated %}
+                  <p>User est identifie</p>
+
+                  <p>User: {{ user.username }} logged in.</p>
+
+                  <p><a href="{% url 'compte:logout' %}">logout</a></p>
+
+              {% else %}
+              <form class="" action="{% url 'compte:acceuil' %}" method="post">
                   {% csrf_token %}
+
                   <div class="">
-                    <label for="name" class="control-label"></label>
-                    <input type="text" placeholder="Votre email" name="login" value="" id="login">
-                    <input type="password" name="password" value="" id="password">
+                      <label for="{{ form.name.id_for_label }}" class="control-label">Login</label>
+                      {{ form.name }}
+                  </div>
+
+                  <div class="">
+                      <label for="{{ form.password.id_for_label }}" class="control-label">Mot de passe</label>
+                      {{ form.password }}
+                  </div>
+
                   <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">Login</button>
                   </div>
               </form>
 
 
-              <a href="creation" class="btn btn-primary btn-xl js-scroll-trigger">Nouveau compte</a>
+              <a href="{% url 'compte:creation' %}" class="btn btn-primary btn-xl js-scroll-trigger">Nouveau compte</a>
 
+              {% endif %}
     {% endblock %}

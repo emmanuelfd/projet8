@@ -21,15 +21,18 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 from django.conf.urls import include, url
+from django.urls import path, include##
 from django.contrib import admin
 from resultats import views
 from django.conf import settings
 from core import views
 
 urlpatterns = [
-    url(r'^$', views.home),
-    url(r'^compte/', include('compte.urls')),
-    #url(r'^resultats/', include('resultats.urls')),
+    url(r'^$', views.home, name='home'),
+    url(r'^compte/', include('compte.urls', namespace='compte')),
+    url(r'^resultats/', include('resultats.urls', namespace='resultats')),
+    url(r'^contact/$', views.contact, name='contact'),
+    url(r'^mentions_legales/$', views.mentions_legales, name='mentions_legales'),
     url(r'^admin/', admin.site.urls),
 ]
 

@@ -4,13 +4,15 @@ from django.conf.urls.static import static
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf import settings
-from compte import views
+from . import views##
 
 
+app_name = 'compte'
 
 urlpatterns = [
 
-    url(r'^$', views.index), # "/store" will call the method "index" in "views.py"
-    url(r'^creation$', views.creation), # "/store" will call the method "index" in "views.py"
+    url(r'^$', views.index, name='acceuil'),
+    url(r'^creation$', views.creation, name='creation'),
+    url(r'^logout$', views.deconnexion, name='logout'),
 
 ]

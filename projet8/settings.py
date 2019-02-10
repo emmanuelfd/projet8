@@ -71,6 +71,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'projet8.urls'
@@ -79,7 +80,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'core/template'),
-                 os.path.join(BASE_DIR, 'compte/template')
+                 os.path.join(BASE_DIR, 'compte/template'),
+                 os.path.join(BASE_DIR, 'resultats/template')
                  ]
         ,
         'APP_DIRS': True,
@@ -162,10 +164,13 @@ else:
     STATIC_URL = '/static/'
     STATICFILES_DIRS = [os.path.join(BASE_DIR, 'core/static/')]
     MEDIA_ROOT = os.path.join(BASE_DIR, 'core/media/')
+    #MEDIA_ROOT = 'C:/Users/Manu/PycharmProjects/projet8/core/media/'
     MEDIA_URL = 'core/media/'
 
+LOGOUT_REDIRECT_URL = 'home'
 
 #print(STATICFILES_DIRS)
+
 #print(STATIC_ROOT)
 #print(MEDIA_URL)
 
