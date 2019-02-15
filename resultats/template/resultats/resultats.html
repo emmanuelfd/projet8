@@ -14,7 +14,20 @@
                 {{ aliment_search }}
 
             </ul>
+
+            <img src="{{ aliment_search.image_small_url }}" alt="{{ aliment_search.product_name }}" >
+
         {% endif %}
+
+        <div class="col-lg-8 mx-auto">
+            <h2 class="text-faded mb-5">Trouver un  produit de substitution</h2>
+              <form class="" action="{% url "resultats:substitution" code_aliment=aliment_search.code  %}" method="get">
+                  {% csrf_token %}
+                  <div class="">
+                  <button type="submit" class="btn btn-primary btn-xl js-scroll-trigger">substitution</button>
+                  </div>
+              </form>
+          </div>
 
           </div>
 

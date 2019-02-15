@@ -23,7 +23,6 @@ def afficher_resultats(request):
 
         query = AlimentModel.objects.filter(product_name__icontains = data)
 
-        print(type(query))
         #if query.exist():
         if query:
             aliment_search = query
@@ -73,17 +72,6 @@ def afficher_resultats(request):
                     pass
 
 
-        #if:
-            ##query dans la DB avec des %names%
-            ## si ca me ramene qqchose, je le garde et vais chercher dans la meme categorie un objet mieux
-            #aliment_search = data
-        #else: la query en db ne me ramene rien
-            ## je vais dasn l API et ramene le premier objet
-            # je retourne chercher les 20 objets de la meme categories et sauve tout en base
-            # j affiche le premier objet + le plus sains
-        #aliment_search = load_data_OFF(data)
-
-
 
         context = {
             'aliment_search': aliment_search
@@ -98,6 +86,7 @@ def afficher_resultats(request):
         context = {
             'aliment_search': 'CHEPAS'
         }
+
 
     return HttpResponse(template.render(context, request=request))
 

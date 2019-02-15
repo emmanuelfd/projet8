@@ -101,24 +101,16 @@ def load_data_from_category_OFF(search_categorie):
 
 
 
-test = load_data_from_category_OFF('pates-a-tartiner')
+#test = load_data_from_category_OFF('pates-a-tartiner')
 
 #test = load_data_OFF('banania')
 
 #print(test)
-print(type(test))
+#print(type(test))
 
 #print(test)
 
 
-for product in test:
-    aliment = Aliment(product)
-    print(aliment.code)
-    print('++++++++++++++++++')
-
-
-#print(manu)
-#manu2 = Aliment(manu)
-
-
-#print(manu2.categorie)
+#for product in test:
+ #   aliment = Aliment(product)
+  #  print(aliment.code)
